@@ -7,3 +7,8 @@ Template React com o ESLint, Prettier e TypeScript Configurado utilizando o **Ai
 
 Vitest incluso e configurado, com um teste de demonstração.
 Comando **npm run vitest** para executar os testes.
+
+
+## React Router
+
+React Router incluso e configurado, com pagina **Home** e pagina **Not Found**.

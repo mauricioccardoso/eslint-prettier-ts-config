@@ -1,10 +1,14 @@
-function App() {
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Home } from './pages/Home';
+import { NotFound } from './pages/NotFound';
+
+export default function App() {
   return (
-    <>
-      <h1>Hello World</h1>
-      <p>Ola mundo</p>
-    </>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="*" element={<NotFound />} />
+      </Routes>
+    </Router>
   );
 }
-
-export default App;
